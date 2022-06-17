@@ -1,0 +1,19 @@
+Nome: Michael
+Cognome: Pellegrino
+Fila n.: 2
+Posizione n.: 3
+
+1) git restore serve per rimuovere file aggiunti tramite il comando git add dalla staging area.
+git restore --staged nello specifico rimuove i file dalla staging area ma salvando le modifiche effettuate in locale.
+La staging area consiste nei file che si vogliono aggiungere al prossimo commit
+
+2) git merge unisce i cambiamenti apportati in due branch, usando l'ultimo commit dei branch scelti.
+I branch sono delle versioni nuove o modificati del main
+Il primo branch scelto è quello su cui ci si trova al momento, il secondo viene specificato come parametro.
+La HEAD è un riferimento speciale che punta alla commit su cui stai lavorando al momento.
+
+3) Un repository remoto è una collezione di file salvata su internet.
+Un esempio è GitHub, che salva varie repository e ne conserva la storia.
+Git pull esegue i comandi git fetch e git merge. 
+Con il fetch scarica i contenuti dal repository remoto.
+Con il merge apporta le modifiche scaricate.
