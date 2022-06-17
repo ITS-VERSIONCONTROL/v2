@@ -1,0 +1,27 @@
+Nome: Simone
+Cognome: Pedrini
+Fila n.: 2
+Posizione n.: 5
+
+Rispondere alle seguenti domande:
+
+    1. Cosa fa il comando 'git diff'? Spiega come funziona la staging area
+    2. Descrivi il comando 'git log', spiegando brevemente cosa sono i branch e cosa è la HEAD
+    3. Cos'è un repository remoto? Descrivi cosa fa il comando 'git push'
+
+Risposte:
+
+    1. Il comando git diff serve a valutare le differenze tra working directory e staging area.
+    La staging area è un'area intermedia dove git si prepara ad effettuare una commit.
+
+    2. il comando git log serve per monitorare lo stato della history. La history stiva le singole commit, che contengono le modifiche
+    che sono state fatte dal programmatore, e mantiene le informazioni e permettono di restituire lo stato della cartella.
+    Un branch è una linea di sviluppo indipendente del progetto, una linea di sviluppo del software.
+    In Git, abbiamo un “ramo” principale chiamato master che raccoglie tutti commit dei file del tuo progetto
+    la HEAD rappresenta quello che c’è nella working directory attualmente. Si può pensare alla HEAD come al "ramo corrente": si indica il branch
+    di lavoro attuale 
+
+    3. Un repository è cartella nascosta che c’è nella directory del progetto che contiene i metadati che sono utili a Git che sono utili
+    per recuperare le informazioni sui sorgenti. Un repository remoto è una repository che può essere clonato sul dispositivo.
+    Il comando git push serve per inviare i commit al repository principale. Ti permette di mandare i commit dal tuo branch locale
+    nel tuo repository locale al repository remoto.
