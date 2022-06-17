@@ -1,0 +1,14 @@
+Nome: Marco
+Cognome: Bonito
+Fila n : 2
+Posizione n.2
+
+
+1.Usa il comando git add per aggiungere nuovi file al repository git. Questo comando non aggiungerà i file ignorati per impostazione predefinita ne i file ignorati trovati nell'esecuzione ricorsiva. Il comando genererà un errore per i file specificati esplicitamente sulla riga di comando.
+
+
+2.Un Branch non è altro che un puntatore a un commit.Al contrario dei tag che sono delle etichette fisse, man mano che creiamo un nuovo commit, il branch corrente si sposta e punta al nuovo commit creato. Git usa il puntatore speciale HEAD per capire qual è il branch corrente
+
+
+3.Git fetch scarica tutti i nuovi commit caricati da altri utenti nel repository remoto. I rami di rilevamento remoto nella cache dei repository locali vengono aggiornati. I rami locali rimangono invariati. L'unione Git integra i commit da uno o più rami di origine in un ramo di destinazione.
+
