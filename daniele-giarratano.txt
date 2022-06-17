@@ -1,0 +1,21 @@
+Nome: Daniele   
+Cognome: Giarratano
+Fila N°: 2
+Posizione N°: 4
+
+
+i: Il comando "git commit -m" serve per caricare le modifiche apportate ad un file con un commento per permettere di comprendere meglio
+   le modifiche effettuate ai file della repository riguardando la history tramite il comando "git log".
+   La staging area è lo spazio in cui vengono archiviati temporaneamente i file prima che venga fatta la commit del file modificato.
+
+ii: il comando "git branch" serve per viualizzare i branch presenti nella repository evidenziandone quello sulla quale ci si trova
+    con "*" mentre se in aggiunta al comando viene inserito un nome, il comando permette la creazione di un nuovo branch con quel nome.
+    Un branch è un ramo che si stacca dal ramo principale di lavoro(master), sul quale vengono poi effettuate modifiche che una volta
+    completate, verranno allineate con il master.
+    La HEAD invece, rappresenta quello che è presente all'interno della working directory.
+
+iii: Il repository remoto è una repository che non deve essere obbligatoriamente creata sulla macchina ma che anzi può essere creata
+     tramite programmi come github e che permettono di poter accedere alla repository tramite la rete e ne permettono la clonazione
+     sui propri dispositivi.
+     Per utilizzarla però bisogna avere un token che deve utilizzato per abilitarne le modifiche.
+     Il comando "git branch -a" permette di vedere tutti i branch esistenti sia in locale che in remoto presenti nella repository.
